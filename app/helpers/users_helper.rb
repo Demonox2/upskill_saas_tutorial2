@@ -3,9 +3,9 @@ module UsersHelper
       if @user.profile.job_title == "Developer"
         "<i class='fa fa-code'></i>".html_safe
       elsif @user.profile.job_title == "Entrepeneur"
-        "<i class='far fa-lightbulb'></i>".html_safe
+        "<i class='fa fa-lightbulb'></i>".html_safe
       elsif @user.profile.job_title == "Investor"
-        "<i class='fa fa-dollar-sign'></i>".html_safe
+        "<i class='fa fa-dollar'></i>".html_safe
       end
     end      
 end
